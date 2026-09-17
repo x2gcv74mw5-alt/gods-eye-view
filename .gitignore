@@ -12,3 +12,9 @@ output/
 3d-models/
 pinokio/ENVIRONMENT
 pinokio/.installed
+
+# secrets never go to GitHub -- .env is already excluded above; this widens it
+.env.*
+!.env.example
+*.pem
+*.key
